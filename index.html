@@ -8,7 +8,7 @@
     </head>
     <body>
 
-        <h1>Communicate between swift and javascript!</h1>
+        <h1 id = "test1">Communicate between swift and javascript!</h1>
 <button id="jsBtn">Send token to APP</button>
     </body>
 
@@ -28,7 +28,7 @@
         }
         // 這個function 用來提供給Webview呼叫來控制標題變成紅色範例。
         function changeTitleColor() {
-            $(h1).css('color', 'red');
+            $('#test1').css('color', 'red');
         }
         </script>
 </html>
